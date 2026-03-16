@@ -1,4 +1,11 @@
 async function post_test(user, test) {
+    Swal.fire({
+        title: 'Cargando...',
+        allowOutsideClick: false,
+        didOpen: () => {
+            Swal.showLoading();
+        }
+    });
     const request = await fetch(`https://bocational-wireframe-apy.onrender.com/post-test/${user}`, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
