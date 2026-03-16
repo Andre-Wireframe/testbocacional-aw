@@ -1,0 +1,12 @@
+{
+    "preguntas": {
+        "ing": [1,2,3,4,5,6],
+        "salud": [],
+        "social": [],
+        "econ": [],
+        "arte": [],
+        "educ": [],
+        "huma": [],
+        "ambi": []
+    }
+}

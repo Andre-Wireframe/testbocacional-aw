@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Test bocacional</title>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1 class="main_title">Test bocacional CECYTEM</h1>
+            <h2>Descubre tu bocación</h2>
+        </div>
+        <div class="hero-buttons">
+            <a href="singin.html" class="button-1">Hacer el test</a>
+            <a href="#about" class="button-1">Ver pagina</a>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <h3>Qué servicio brindamos</h3>
+            <p>
+                Este proyecto se ideo y se desarrollo con el fin de que los alumnos de CECYTEM
+                pudieran conocer de forma sencilla que bocación pudieran ejercer en un futuro,
+                para esto se realizo una correcta investigación sobre las bocaciones y sus
+                perfiles para asi poder brindarte la mejor de las orientaciones posibles en el
+                tan complejo tema de la elección de la bocacion. <br>
+                Esperamos que este sitio te ayude a encontrar la bocación de tus sueños. <br>
+                Atentamente equipo de desarrollo.
+            </p>
+            <a href="#manual" class="button-1">Seguir navegando</a>
+        </section>
+
+        <section id="manual" class="manual">
+            <h3>Como realizar el test</h3>
+            <p>
+                Realizar el test y ver tu resultado es sumamente sencillo y rapido.
+            </p>
+            <div class="containers-box">
+                <div class="container">
+                    <p>1</p>
+                    <div>
+                        <h4>Registrate</h4>
+                        <p>
+                            Da click en el boton de registrarte para acceder a la pagina de
+                            registro. <br>
+                        </p>
+                    </div>
+                    <img src="img/click.png" alt="">
+                </div>
+                <div class="container">
+                    <p>2</p>
+                    <div>
+                        <h4>Ingresa tus credenciales</h4>
+                        <p>
+                            Intruduse tu nombre de usuario, tu contraseña, tu numero de control,
+                            tu grupo y da click en enviar.
+                        </p>
+                    </div>
+                    <img src="img/input.png" alt="">
+                </div>
+                <div class="container">
+                    <p>3</p>
+                    <div>
+                        <h4>Realiza el test</h4>
+                        <p>
+                            Contesta a las preguntas de forma sincera y da click en enviar. <br>
+                        </p>
+                    </div>
+                    <img src="img/test.png" alt="">
+                </div>
+                <div class="container">
+                    <p>4</p>
+                    <div>
+                        <h4>Ve tu resutado</h4>
+                        <p>
+                            Observa tu resultado y listo ya sabes para que eres bueno. <br>
+                        </p>
+                    </div>
+                    <img src="img/check.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="bocations">
+            <div class="zones-box">
+                <h3>Areas bocacionales</h3>
+                <div class="zone">
+                    <h4>Ciencias Fisicomatematicas</h4>
+                    <p>
+                        Estas carreras se destacan por ser muy exigentes, llenas de matematicas,
+                        pero valen mucho la pena si te gustan los numero y la logica.
+                    </p>
+                    <button onclick="show_vocations('ul1')" class="view-detail">Ver detalle</button>
+                    <ul id="ul1">
+                        <h5>Carreras destacadas</h5>
+                        <li>Ingeniería Civil</li>
+                        <li>Ingeniería Mecánica</li>
+                        <li>Ingeniería Mecatrónica</li>
+                        <li>Ingeniería en Software</li>
+                        <li>Ingeniería Electronica</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Ciencias biologicas y de la salud</h4>
+                    <p>
+                        Si te interesa la anatomia humana, la salud o los seres vivos
+                        esta esta area es tu mejor opción.
+                    </p>
+                    <button onclick="show_vocations('ul2')" class="view-detail">Ver detalle</button>
+                    <ul id="ul2">
+                        <h5>Carreras destacadas</h5>
+                        <li>Medicina</li>
+                        <li>Enfermeria</li>
+                        <li>Veterinaria</li>
+                        <li>Biologia</li>
+                        <li>Nutrición</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Ciencias sociales</h4>
+                    <p>
+                        Estas carreras estudian el comportamiento humano y de la
+                        sociedad, si las personas te parecen interesantes esta es tu area.
+                    </p>
+                    <button onclick="show_vocations('ul3')" class="view-detail">Ver detalle</button>
+                    <ul id="ul3">
+                        <h5>Carreras destacadas</h5>
+                        <li>Derecho</li>
+                        <li>Sociologia</li>
+                        <li>Ciencias Politicas</li>
+                        <li>Criminologia</li>
+                        <li>Geografia</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Ciencias economico-administrativo</h4>
+                    <p>
+                        Si tu intencios es manejar y administrar capital o empresas
+                        estas carreras te ayudarian mucho.
+                    </p>
+                    <button onclick="show_vocations('ul4')" class="view-detail">Ver detalle</button>
+                    <ul id="ul4">
+                        <h5>Carreras destacadas</h5>
+                        <li>Administración de Empresas</li>
+                        <li>Comercio</li>
+                        <li>Mercadotecnia</li>
+                        <li>Finanzas</li>
+                        <li>Economia</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Humanidades</h4>
+                    <p>
+                        Todo lo relasionado con los humanos se encuentra aqui,
+                        ideal si quieres conocer la historia y las costumbres humanas.
+                    </p>
+                    <button onclick="show_vocations('ul5')" class="view-detail">Ver detalle</button>
+                    <ul id="ul5">
+                        <h5>Carreras destacadas</h5>
+                        <li>Historia</li>
+                        <li>Literatura</li>
+                        <li>Filosofia</li>
+                        <li>Linguistica</li>
+                        <li>Traducción</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Artes</h4>
+                    <p>
+                        Deja volar tu creatividad e imaginación con una de estas
+                        carreras y aprende a crear obras de arte.
+                    </p>
+                    <button onclick="show_vocations('ul6')" class="view-detail">Ver detalle</button>
+                    <ul id="ul6">
+                        <h5>Carreras destacadas</h5>
+                        <li>Pintura</li>
+                        <li>Musica</li>
+                        <li>Teatro</li>
+                        <li>Danza</li>
+                        <li>Cine</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Educacción y pedagogia</h4>
+                    <p>
+                        Transmite enseñansas y conocimiento a las nuevas generaciones
+                        al estudiar una de estas carreras.
+                    </p>
+                    <button onclick="show_vocations('ul7')" class="view-detail">Ver detalle</button>
+                    <ul id="ul7">
+                        <h5>Carreras destacadas</h5>
+                        <li>Pedagogia</li>
+                        <li>Didactica</li>
+                        <li>Gestion educativa</li>
+                        <li>Orientacion educativa</li>
+                        <li>Educacion preescolar</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+                <div class="zone">
+                    <h4>Ciencias agrarias y ambientales</h4>
+                    <p>
+                        Si te gusta el aire libre y la naturalesa estas
+                        carreras son para ti.
+                    </p>
+                    <button onclick="show_vocations('ul8')" class="view-detail">Ver detalle</button>
+                    <ul id="ul8">
+                        <h5>Carreras destacadas</h5>
+                        <li>Ingenieria en Agronomia</li>
+                        <li>Ingenieria Forestal</li>
+                        <li>Zootecnia</li>
+                        <li>Acuicultura</li>
+                        <li>Ingenieria Ambiental</li>
+                        <li>Entre otras</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="end-of-feet">
+            <h3>No lo pienses mas, has el test ahora y descubre tu bocación</h3>
+            <a href="singin.html" id="last-button" class="button-1">Hacer el test ahora</a>
+        </section>
+    </main>
+    <footer>
+        <div class="fot-background2">
+            <div class="footer-box">
+                <h3>Gracias por visitar!!!</h3>
+                <h4>Equipo de desarrollo:</h4>
+                <ul>
+                   <li>André-wireframe: Desarrollador</li> 
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
