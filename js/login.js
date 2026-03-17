@@ -27,10 +27,10 @@ log_button.addEventListener("click",
     }
 );
 async function log_in() {
-    const username = document.getElementById("log-username").value;
+    const username1 = document.getElementById("log-username").value;
     const password = document.getElementById("log-password").value;
 
-    if (username == "" && password == "") {
+    if (username1 == "" && password == "") {
         Swal.fire({
             title : "Datos faltantes",
             text : "Verifica que todos los datos esten llenos",
@@ -39,6 +39,7 @@ async function log_in() {
         });
     }
     else {
+        const username = username1.replace(" ", "");
         const data = {
             name : username,
             password : password

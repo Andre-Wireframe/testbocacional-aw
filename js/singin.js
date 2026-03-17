@@ -33,11 +33,12 @@ sing_button.addEventListener("click",
 );
 
 async function sing_in() {
-    const username = document.getElementById("sing-username").value;
+    const username1 = document.getElementById("sing-username").value;
     const password = document.getElementById("sing-password").value;
     const ncontrol = document.getElementById("ncontrol").value;
 
-    if (password.length > 7 && username != "" && ncontrol != 0) {
+    if (password.length > 7 && username1 != "" && ncontrol != 0) {
+        const username = username1.replace(" ", "")
         const data = {
             name : username,
             password : password,
