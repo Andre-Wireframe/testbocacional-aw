@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Administracion</title>
+    <title>Administración</title>
 </head>
 <body>
+    <main>
+        <div class="triple-back">
+            <div class="doble-back">
+                <form>
+                    <h3>Ingrese la superkey</h3>
+                    <div>
+                        <label for="username">Nombre de usuario</label><br>
+                        <input type="text" name="username" id="log-username" required><br><br>
+
+                        <label for="password">Superkey</label><br>
+                        <input type="password" name="password" id="log-password" required><br><br>
+
+                    </div>
+                    <div class="buttons">
+                        <button type="button" id="log-button" class="button-1">Enviar</button>
+                        <a href="index.html" class="button-1">Cancelar</a>
+                    </div>
+                    <a class="link" href="singin.html">Si no tienes cuenta da click aqui</a>
+                </form>
+            </div>
+        </div>
+        <!--Meter aqui los registros-->
+    </main>
     
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/admin_login.js"></script>
 </body>
 </html>
