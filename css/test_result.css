@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
-/* Andre-wireframe */
+/* André-wireframe */
 
 @keyframes surge {
     from {
@@ -47,7 +47,7 @@
     text-decoration: none;
     color: black;
     cursor: pointer;
-    margin: 20px 20px;
+    margin: 40px 20px;
 }
 
 .button-1:hover {
