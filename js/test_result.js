@@ -10,7 +10,7 @@ ctx.width = window.innerWidth - 100;
 ctx.height = window.innerHeight - 300;
 
 const data = {
-    labels: ['Ingenieria', 'Salud', 'Sociedad', 'Economia', 'Arte', 'Educacion', 'Humanidades', 'Ambiente'],
+    labels: ['Ingeniería', 'Salud', 'Sociedad', 'Economía', 'Arte', 'Educación', 'Humanidades', 'Ambiente'],
     datasets: [{
     label: 'Resultados del test',
     data: test.split(","),

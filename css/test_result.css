@@ -205,6 +205,13 @@ footer ul {
 }
 
 @media print {
+    h1 {
+        font-size: 30px;
+        padding: 20px;
+    }
+    .grafic {
+        width: 80%;
+    }
     footer {
         display: none;
     }
