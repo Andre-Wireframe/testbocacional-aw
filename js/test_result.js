@@ -28,7 +28,7 @@ const config = {
     },
 };
 
-new Chart(ctx, config);
+const grafica = new Chart(ctx, config);
 
 function get_max() {
     let array = [];
@@ -58,4 +58,13 @@ console.log(index);
 index.forEach((c,v) => {
     const zone = document.getElementById(`z${c+1}`);
     zone.style.display = "block";
+});
+
+window.addEventListener("beforeprint", () => {
+    grafica.resize(800, 800);
+    grafica.update();
+});
+
+window.addEventListener("afterprint", () => {
+    location.reload();
 });
